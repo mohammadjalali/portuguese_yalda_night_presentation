@@ -21,6 +21,34 @@
     .reveal .title-slide {
       text-align: center;
     }
+    .slide-image {
+      max-height: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin-top: 1em;
+    }
+    .slide-with-image {
+      display: flex;
+      gap: 1.5em;
+      align-items: flex-start;
+    }
+    .slide-with-image .text {
+      flex: 1;
+    }
+    .slide-with-image .image {
+      flex: 0 0 45%;
+    }
+    .slide-with-image .image img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .slide-with-image .image .caption {
+      font-size: 0.7em;
+      color: #666;
+      text-align: center;
+      margin-top: 0.4em;
+    }
   </style>
 </head>
 <body>
@@ -28,7 +56,7 @@
     <div class="slides">
 
       <!-- Slide 1: Title -->
-      <section class="title-slide">
+      <section class="title-slide" data-background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Yalda_Night_celebration_in_Iran_-_family_gathering.jpg/1280px-Yalda_Night_celebration_in_Iran_-_family_gathering.jpg" data-background-opacity="0.25">
         <h1>🌙 Noite de Yalda</h1>
         <p>A celebração iraniana da noite mais longa</p>
       </section>
@@ -58,23 +86,43 @@
       <!-- Slide 4: Family gathering -->
       <section>
         <h2>Reunião da família</h2>
-        <ul>
-          <li>A família junta-se sempre nesta noite.</li>
-          <li>Os avós, os pais e os filhos estão todos juntos.</li>
-          <li>Ficam acordados até tarde.</li>
-          <li>Conversam, riem e contam histórias.</li>
-        </ul>
+        <div class="slide-with-image">
+          <div class="text">
+            <ul>
+              <li>A família junta-se sempre nesta noite.</li>
+              <li>Os avós, os pais e os filhos estão todos juntos.</li>
+              <li>Ficam acordados até tarde.</li>
+              <li>Conversam, riem e contam histórias.</li>
+            </ul>
+          </div>
+          <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Yalda_Night_celebration_in_Iran_-_family_gathering.jpg/640px-Yalda_Night_celebration_in_Iran_-_family_gathering.jpg"
+                 alt="Família iraniana junta na Noite de Yalda"
+                 onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Yalda_2015_in_Tehran.jpg/640px-Yalda_2015_in_Tehran.jpg';" />
+            <div class="caption">Família iraniana celebra Yalda junta</div>
+          </div>
+        </div>
       </section>
 
       <!-- Slide 5: The table (Sofreh) -->
       <section>
         <h2>A mesa especial</h2>
-        <ul>
-          <li>A família prepara uma mesa bonita.</li>
-          <li>Colocam frutas, doces e nozes.</li>
-          <li>A melancia é muito importante.</li>
-          <li>A romã também está sempre na mesa.</li>
-        </ul>
+        <div class="slide-with-image">
+          <div class="text">
+            <ul>
+              <li>A família prepara uma mesa bonita.</li>
+              <li>Colocam frutas, doces e nozes.</li>
+              <li>A melancia é muito importante.</li>
+              <li>A romã também está sempre na mesa.</li>
+            </ul>
+          </div>
+          <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Yalda_fruit_table.jpg/640px-Yalda_fruit_table.jpg"
+                 alt="Mesa de Yalda com frutas e romã"
+                 onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Yalda_Night_fruits_and_nuts.jpg/640px-Yalda_Night_fruits_and_nuts.jpg';" />
+            <div class="caption">Mesa de Yalda com melancia, romã e frutos secos</div>
+          </div>
+        </div>
       </section>
 
       <!-- Slide 6: Why watermelon and pomegranate? -->
@@ -91,23 +139,65 @@
       <!-- Slide 7: Reading poetry -->
       <section>
         <h2>Leitura de poesia</h2>
-        <ul>
-          <li>As pessoas leem poesia nesta noite.</li>
-          <li>O livro mais famoso é o "Hafez".</li>
-          <li>Uma pessoa abre o livro ao acaso.</li>
-          <li>O poema diz o que vai acontecer no novo ano.</li>
-        </ul>
+        <div class="slide-with-image">
+          <div class="text">
+            <ul>
+              <li>As pessoas leem poesia nesta noite.</li>
+              <li>O livro mais famoso é o "Hafez".</li>
+              <li>Uma pessoa abre o livro ao acaso.</li>
+              <li>O poema diz o que vai acontecer no novo ano.</li>
+            </ul>
+          </div>
+          <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Divan_of_Hafez.jpg/480px-Divan_of_Hafez.jpg"
+                 alt="Livro de Hafez"
+                 onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hafez_poetry_book_Iran.jpg/480px-Hafez_poetry_book_Iran.jpg';" />
+            <div class="caption">O "Divan" de Hafez — livro de poesia persa</div>
+          </div>
+        </div>
       </section>
 
-      <!-- Slide 8: Food and sweets -->
+      <!-- Slide 7b: Reading Shahnameh -->
+      <section>
+        <h2>Leitura do Shahnameh</h2>
+        <div class="slide-with-image">
+          <div class="text">
+            <ul>
+              <li>Os avós leem o "Shahnameh" para os netos.</li>
+              <li>O Shahnameh é o "Livro dos Reis".</li>
+              <li>É um livro muito antigo da Pérsia.</li>
+              <li>Conta histórias de heróis e reis.</li>
+              <li>As crianças adoram estas histórias.</li>
+            </ul>
+          </div>
+          <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Shahnameh_Baysonghor_1430.jpg/480px-Shahnameh_Baysonghor_1430.jpg"
+                 alt="Página do Shahnameh de Baysonghor"
+                 onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ferdowsi_Shahnameh_illustration.jpg/480px-Ferdowsi_Shahnameh_illustration.jpg';" />
+            <div class="caption">Ilustração do Shahnameh (Livro dos Reis)</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 9: Food and sweets -->
       <section>
         <h2>Comida e doces</h2>
-        <ul>
-          <li>As pessoas comem frutos secos.</li>
-          <li>Comem tâmaras, pistaches e amêndoas.</li>
-          <li>Os doces tradicionais são muito doces e saborosos.</li>
-          <li>Bebem chá quente com toda a família.</li>
-        </ul>
+        <div class="slide-with-image">
+          <div class="text">
+            <ul>
+              <li>As pessoas comem frutos secos.</li>
+              <li>Comem tâmaras, pistaches e amêndoas.</li>
+              <li>Os doces tradicionais são muito doces e saborosos.</li>
+              <li>Bebem chá quente com toda a família.</li>
+            </ul>
+          </div>
+          <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Persian_tea_and_dried_fruits.jpg/480px-Persian_tea_and_dried_fruits.jpg"
+                 alt="Chá persa e frutos secos"
+                 onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Persian_sweets_and_nuts.jpg/480px-Persian_sweets_and_nuts.jpg';" />
+            <div class="caption">Chá quente, frutos secos e doces persas</div>
+          </div>
+        </div>
       </section>
 
       <!-- Slide 9: Symbolism -->
