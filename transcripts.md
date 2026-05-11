@@ -1,99 +1,62 @@
-# 🌙 Noite de Yalda — Guião / Script
-
-> **Duração estimada / Estimated duration: 2–2.5 minutos / minutes**
+# 🌙 Noite de Yalda — Guião da Apresentação
+*Yalda Night — Presentation Transcript*
 
 ---
 
 ## Slide 1 — Título / Title
 
-**🇵🇹 PT:** Boa tarde a todos. Hoje vou falar sobre uma festa muito especial. Chama-se a Noite de Yalda. É uma festa do Irão.
+**PT:** Boa tarde a todos. Hoje vou falar sobre a Noite de Yalda. É uma festa muito antiga do Irão. É uma celebração da luz.
 
-**🇬🇧 EN:** Good afternoon everyone. Today I'm going to talk about a very special celebration. It's called Yalda Night. It's an Iranian celebration.
+**EN:** Good afternoon everyone. Today I am going to talk about Yalda Night. It is a very old celebration from Iran. It is a celebration of light.
 
 ---
 
 ## Slide 2 — O que é a Noite de Yalda? / What is Yalda Night?
 
-**🇵🇹 PT:** A Noite de Yalda é uma festa tradicional iraniana. Acontece no dia vinte e um de dezembro. É a noite mais longa do ano. As pessoas celebram porque a luz vence a escuridão.
+**PT:** A Noite de Yalda acontece no dia 21 de dezembro. É a noite mais longa do ano. Esta tradição tem mais de dois mil e quinhentos anos. As pessoas celebram a vitória da luz sobre a escuridão.
 
-**🇬🇧 EN:** Yalda Night is a traditional Iranian celebration. It happens on the twenty-first of December. It is the longest night of the year. People celebrate because light wins over darkness.
+**EN:** Yalda Night takes place on the 21st of December. It is the longest night of the year. This tradition is more than two thousand five hundred years old. People celebrate the victory of light over darkness.
 
 ---
 
 ## Slide 3 — O significado do nome / The meaning of the name
 
-**🇵🇹 PT:** A palavra "Yalda" vem da língua síria. Significa "nascimento". As pessoas celebram o nascimento do sol. Depois desta noite, os dias ficam mais longos e há mais luz.
+**PT:** A palavra "Yalda" significa nascimento. Celebra o nascimento do sol. Depois desta noite, os dias ficam mais longos. Por isso, é uma noite de esperança. A luz regressa.
 
-**🇬🇧 EN:** The word "Yalda" comes from the Syriac language. It means "birth". People celebrate the birth of the sun. After this night, the days get longer and there is more light.
+**EN:** The word "Yalda" means birth. It celebrates the birth of the sun. After this night, the days get longer. So it is a night of hope. The light comes back.
 
 ---
 
 ## Slide 4 — Reunião da família / Family gathering
 
-**🇵🇹 PT:** Esta noite é muito especial para a família. Os avós, os pais e os filhos estão todos juntos. Ficam acordados até muito tarde. Conversam, riem e contam histórias.
+**PT:** Nesta noite, toda a família se junta em casa. Os avós, os pais e os filhos estão todos juntos. Ficam acordados até ao nascer do sol. A mesa tem melancia, romã e frutos secos. A cor vermelha das frutas representa o sol e a vida.
 
-**🇬🇧 EN:** This night is very special for the family. Grandparents, parents and children are all together. They stay awake until very late. They talk, laugh and tell stories.
-
----
-
-## Slide 5 — A mesa especial / The special table
-
-**🇵🇹 PT:** A família prepara uma mesa muito bonita. Colocam frutas, doces e nozes na mesa. A melancia é muito importante. E a romã também está sempre na mesa.
-
-**🇬🇧 EN:** The family prepares a very beautiful table. They put fruits, sweets and nuts on the table. Watermelon is very important. And pomegranate is always on the table too.
+**EN:** On this night, the whole family gathers at home. Grandparents, parents and children are all together. They stay awake until sunrise. The table has watermelon, pomegranate and nuts. The red colour of the fruits represents the sun and life.
 
 ---
 
-## Slide 6 — Porquê melancia e romã? / Why watermelon and pomegranate?
+## Slide 5 — O que fazem as pessoas? / What do people do?
 
-**🇵🇹 PT:** A melancia é vermelha por dentro. A cor vermelha lembra o sol. A romã tem muitas sementes. As sementes simbolizam a vida e a sorte.
+**PT:** As pessoas leem poesia do livro Divan de Hafez. Hafez foi um poeta persa muito famoso. Cada pessoa abre o livro numa página ao acaso. O poema que encontram é como uma mensagem para o futuro. Os avós também leem o Shahnameh para os netos. O Shahnameh é o Livro dos Reis. Tem histórias de heróis e reis da Pérsia antiga. As pessoas ficam juntas, partilham música e contam histórias até de manhã.
 
-**🇬🇧 EN:** Watermelon is red on the inside. The red colour reminds people of the sun. Pomegranate has many seeds. The seeds symbolise life and good luck.
-
----
-
-## Slide 7 — Leitura de poesia / Reading poetry
-
-**🇵🇹 PT:** Nesta noite, as pessoas leem poesia. O livro mais famoso chama-se "Hafez". Uma pessoa abre o livro numa página ao acaso. O poema diz o que vai acontecer no novo ano.
-
-**🇬🇧 EN:** On this night, people read poetry. The most famous book is called "Hafez". One person opens the book to a random page. The poem tells what will happen in the new year.
+**EN:** People read poetry from the book Divan by Hafez. Hafez was a very famous Persian poet. Each person opens the book on a random page. The poem they find is like a message for the future. Grandparents also read the Shahnameh to their grandchildren. The Shahnameh is the Book of Kings. It has stories of heroes and kings from ancient Persia. People stay together, share music and tell stories until the morning.
 
 ---
 
-## Slide 8 — Leitura do Shahnameh / Reading the Shahnameh
+## Slide 6 — Yalda hoje / Yalda today
 
-**🇵🇹 PT:** Os avós também leem o "Shahnameh" para os netos. O Shahnameh é o "Livro dos Reis". É um livro muito antigo da Pérsia. Conta histórias de heróis e reis. As crianças adoram estas histórias.
+**PT:** Hoje, os iranianos em todo o mundo celebram Yalda. Cada família tem as suas próprias tradições. Mas o espírito é sempre o mesmo. É uma noite de amor, família e esperança.
 
-**🇬🇧 EN:** Grandparents also read the "Shahnameh" to their grandchildren. The Shahnameh is the "Book of Kings". It is a very old book from Persia. It tells stories of heroes and kings. Children love these stories.
-
----
-
-## Slide 9 — Comida e doces / Food and sweets
-
-**🇵🇹 PT:** As pessoas comem frutos secos, como tâmaras, pistaches e amêndoas. Os doces tradicionais são muito saborosos. E toda a gente bebe chá quente juntos.
-
-**🇬🇧 EN:** People eat dried fruits, such as dates, pistachios and almonds. The traditional sweets are very tasty. And everyone drinks hot tea together.
+**EN:** Today, Iranians all over the world celebrate Yalda. Every family has their own traditions. But the spirit is always the same. It is a night of love, family and hope.
 
 ---
 
-## Slide 10 — O simbolismo / The symbolism
+## Slide 7 — Fim / End
 
-**🇵🇹 PT:** A escuridão representa o inverno. A luz representa a primavera. Nesta noite, a luz vence a escuridão. É uma mensagem de esperança para todos.
+**PT:** Muito obrigado. Espero que tenham gostado. Yalda Mobārak — Feliz Noite de Yalda!
 
-**🇬🇧 EN:** Darkness represents winter. Light represents spring. On this night, light wins over darkness. It is a message of hope for everyone.
-
----
-
-## Slide 11 — Yalda hoje / Yalda today
-
-**🇵🇹 PT:** Hoje, os iranianos em todo o mundo celebram Yalda. A festa é diferente em cada casa. Mas o espírito é sempre o mesmo — amor, família e esperança.
-
-**🇬🇧 EN:** Today, Iranians all over the world celebrate Yalda. The celebration is different in every home. But the spirit is always the same — love, family and hope.
+**EN:** Thank you very much. I hope you enjoyed it. Yalda Mobārak — Happy Yalda Night!
 
 ---
 
-## Slide 12 — Final / End
-
-**🇵🇹 PT:** Obrigado por ouvirem. Espero que tenham gostado. Feliz Noite de Yalda!
-
-**🇬🇧 EN:** Thank you for listening. I hope you enjoyed it. Happy Yalda Night!
+*Duração estimada: 2 a 3 minutos / Estimated duration: 2 to 3 minutes*
