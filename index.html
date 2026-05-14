@@ -5,50 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Noite de Yalda</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css" />
   <style>
-    .reveal h1, .reveal h2, .reveal h3 {
+    :root {
+      --accent: #e8c97a;
+    }
+
+    .reveal h1, .reveal h2 {
       text-transform: none;
-      color: #1a1a2e;
+      font-weight: 700;
     }
-    .reveal p, .reveal li {
-      font-size: 0.85em;
-      line-height: 1.5;
-    }
+
     .reveal .slides section {
-      text-align: left;
-      overflow: hidden;
-    }
-    .reveal .title-slide {
       text-align: center;
+      padding: 0 20px;
     }
-    .slide-image {
-      max-height: 300px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-      margin-top: 1em;
+
+    /* Title slide */
+    .title-slide {
+      background: #0d1b2a;
     }
-    .slide-with-image {
-      display: flex;
-      gap: 1.5em;
-      align-items: flex-start;
+    .title-slide h1 {
+      font-size: 2.4em;
+      color: var(--accent);
+      margin-bottom: 0.3em;
     }
-    .slide-with-image .text {
-      flex: 1;
+    .title-slide p {
+      color: #aaa;
+      font-size: 0.9em;
+      letter-spacing: 0.08em;
     }
-    .slide-with-image .image {
-      flex: 0 0 38%;
+
+    /* Image slides */
+    .img-slide h2 {
+      font-size: 1em;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5em;
     }
-    .slide-with-image .image img {
+
+    .img-slide img {
       width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      height: 310px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
     }
-    .slide-with-image .image .caption {
-      font-size: 0.7em;
-      color: #666;
-      text-align: center;
-      margin-top: 0.4em;
+
+    .keywords {
+      margin-top: 0.6em;
+      display: flex;
+      justify-content: center;
+      gap: 1.2em;
+      flex-wrap: wrap;
+    }
+
+    .keywords span {
+      font-size: 1.1em;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.04em;
+    }
+
+    .keywords span + span::before {
+      content: "·";
+      margin-right: 1.2em;
+      color: var(--accent);
+    }
+
+    /* Closing slide */
+    .closing-slide {
+      background: #0d1b2a;
+    }
+    .closing-slide h1 {
+      font-size: 2.2em;
+      color: var(--accent);
+    }
+    .closing-slide p {
+      color: #aaa;
+      font-size: 0.9em;
     }
   </style>
 </head>
@@ -59,66 +95,54 @@
       <!-- Slide 1: Title -->
       <section class="title-slide">
         <h1>🌙 Noite de Yalda</h1>
-        <p>Uma festa persa muito antiga</p>
+        <p>Uma festa persa</p>
       </section>
 
-      <!-- Slide 2: What is Yalda? -->
-      <section>
-        <h2>O que é a Noite de Yalda?</h2>
-        <ul>
-          <li>É uma festa do Irão.</li>
-          <li>É no dia 21 de dezembro.</li>
-          <li>É a noite mais longa do ano.</li>
-          <li>As pessoas celebram a luz.</li>
-        </ul>
-      </section>
-
-      <!-- Slide 3: Meaning -->
-      <section>
-        <h2>O que significa "Yalda"?</h2>
-        <ul>
-          <li>"Yalda" significa <em>nascimento</em>.</li>
-          <li>É o nascimento do sol.</li>
-          <li>Depois desta noite, os dias são mais longos.</li>
-          <li>É uma noite de esperança.</li>
-        </ul>
-      </section>
-
-      <!-- Slide 4: Family + Table + Activities (merged) -->
-      <section>
-        <h2>A noite em família</h2>
-        <div class="slide-with-image">
-          <div class="text">
-            <ul>
-              <li>A família está junta em casa.</li>
-              <li>A mesa tem melancia, romã e frutos secos.</li>
-              <li>As pessoas falam, riem e ouvem música.</li>
-              <li>Leem o <em>Divan</em> de Hafez — o poema diz o futuro.</li>
-            </ul>
-          </div>
-          <div class="image">
-            <img src="images/1.jpeg"
-                 alt="Família iraniana junta na Noite de Yalda"/>
-            <div class="caption">Família iraniana celebra Yalda junta</div>
-          </div>
+      <!-- Slide 2: Date -->
+      <section class="img-slide">
+        <h2>Quando?</h2>
+        <img src="images/2.jpeg" alt="Noite de Yalda" />
+        <div class="keywords">
+          <span>21 de dezembro</span>
+          <span>noite mais longa</span>
         </div>
       </section>
 
-      <!-- Slide 5: Yalda today -->
-      <section>
-        <h2>Yalda hoje</h2>
-        <ul>
-          <li>Os iranianos em todo o mundo celebram Yalda.</li>
-          <li>Cada família tem as suas tradições.</li>
-          <li>Mas é sempre uma noite de família.</li>
-          <li>É amor, luz e esperança.</li>
-        </ul>
+      <!-- Slide 3: Family -->
+      <section class="img-slide">
+        <h2>Família</h2>
+        <img src="images/1.jpeg" alt="Família junta" />
+        <div class="keywords">
+          <span>família junta</span>
+          <span>celebração</span>
+        </div>
       </section>
 
-      <!-- Slide 6: End -->
-      <section class="title-slide">
+      <!-- Slide 4: Hafez -->
+      <section class="img-slide">
+        <h2>Tradição</h2>
+        <img src="images/4.jpeg" alt="Poesia de Hafez" />
+        <div class="keywords">
+          <span>poesia de Hafez</span>
+          <span>prevê o futuro</span>
+        </div>
+      </section>
+
+      <!-- Slide 5: Special table -->
+      <section class="img-slide">
+        <h2>Mesa especial</h2>
+        <img src="images/3.jpeg" alt="Mesa de Yalda" />
+        <div class="keywords">
+          <span>melancia</span>
+          <span>romã</span>
+          <span>frutos secos</span>
+        </div>
+      </section>
+
+      <!-- Slide 6: Closing -->
+      <section class="closing-slide">
         <h1>Obrigado! 🌙</h1>
-        <p>Espero que tenham gostado.</p>
+        <p>Yalda Mobārak</p>
       </section>
 
     </div>
@@ -129,7 +153,7 @@
     Reveal.initialize({
       hash: true,
       slideNumber: true,
-      transition: 'slide',
+      transition: 'fade',
       transitionSpeed: 'default',
     });
   </script>
